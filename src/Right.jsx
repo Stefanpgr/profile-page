@@ -1,5 +1,5 @@
 import React from "react";
-
+import styled from "styled-components";
 const Right = () => {
   return (
     <div class="right">
@@ -18,7 +18,9 @@ const Right = () => {
       </div>
 
       <div class="projects">
-        <h3>Projects</h3>
+        <h3>
+          Projects <span class="projects"></span>
+        </h3>
         <div class="projects_data">
           <div class="data">
             <h4>Recent</h4>
